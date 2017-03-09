@@ -1,6 +1,8 @@
 ## Vehicle Detetction and Tracking
 
-In this project, the goal is to write a software pipeline to detect vehicles and track them in a video
+This project is based on writing a software pipeline to detect and track vehicles in a video. Output is shown below:
+
+![](vehicle_detection_tracking.gif)
 
 The Project
 ---
@@ -20,11 +22,11 @@ Cloning the repository and downloading the above files will make the notebook wo
 
 Files
 ---
-Some example images for testing the pipeline on single frames are located in the `test_images` folder.  The video called `project_video.mp4` is the video the pipeline works on. `test_video_output.mp4` is the application of the pipeline on the `test_video.mp4`
-
-`vehicle_detection_tracking` files contain the output. the mp4 is the original video and gif is displayed below:
-
-![](vehicle_detection_tracking.gif)
+* `test_images` contains example images for testing the pipeline on single frames.
+* `test_video.mp4` is a test video to check the performance of pipeline.
+* `test_video_output.mp4` is the result of pipeline on the `test_video.mp4`.
+* `project_video.mp4` is the main input video the pipeline works on.
+* `vehicle_detection_tracking` files contain the output. the mp4 is the original video and gif is displayed above:
 
 Notebook
 ---
